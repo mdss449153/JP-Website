@@ -12,17 +12,17 @@ export const JustPromotLogo: React.FC<JustPromotLogoProps> = ({
   size = 'md',
 }) => {
   const heightClass = {
-    sm: 'h-8 w-8',
-    md: 'h-10 w-10 sm:h-11 sm:w-11',
-    lg: 'h-12 w-12 sm:h-14 sm:w-14',
-    xl: 'h-16 w-16',
+    sm: 'h-6 sm:h-7 w-auto',
+    md: 'h-8 sm:h-9 w-auto',
+    lg: 'h-10 sm:h-12 w-auto',
+    xl: 'h-14 sm:h-16 w-auto',
   }[size];
 
   return (
     <img
-      src="/Just Promot logo.png"
-      alt="JustPromot"
-      className={`${heightClass} object-contain rounded-full block ${className}`}
+      src="/jp.png"
+      alt="JP Logo"
+      className={`${heightClass} object-contain block ${className}`}
     />
   );
 };

@@ -45,9 +45,14 @@ export const Navbar: React.FC<NavbarProps> = ({ onNavigate, activeSection }) => 
           {/* Logo on the Left */}
           <button
             onClick={() => handleLinkClick('home')}
-            className="flex items-center group text-left focus:outline-hidden cursor-pointer"
+            className="flex items-center gap-1 sm:gap-1.5 group text-left focus:outline-hidden cursor-pointer"
             aria-label="JustPromot Home"
           >
+            <img
+              src="/jp.png"
+              alt="JP Logo"
+              className="h-8 sm:h-9 w-auto object-contain transition-transform group-hover:scale-105"
+            />
             <span className="text-xl sm:text-2xl font-black tracking-tight text-neutral-950 font-display">
               Just <span className="text-blue-600">Promot</span>
             </span>

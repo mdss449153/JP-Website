@@ -17,7 +17,12 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate, onSelectServiceAndCo
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8">
           {/* Brand & Mission Column */}
           <div className="lg:col-span-5 space-y-4">
-            <div className="inline-flex items-center px-4 py-2 bg-white rounded-xl shadow-xs border border-neutral-200/80">
+            <div className="inline-flex items-center gap-1 sm:gap-1.5 px-3.5 py-1.5 bg-white rounded-xl shadow-xs border border-neutral-200/80">
+              <img
+                src="/jp.png"
+                alt="JP Logo"
+                className="h-7 sm:h-8 w-auto object-contain"
+              />
               <span className="text-xl sm:text-2xl font-black tracking-tight text-neutral-950 font-display">
                 Just <span className="text-blue-600">Promot</span>
               </span>
