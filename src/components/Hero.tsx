@@ -108,8 +108,12 @@ export const Hero: React.FC<HeroProps> = ({ onNavigate }) => {
                   <div className="p-4 bg-gradient-to-b from-neutral-900 to-neutral-950">
                     <div className="flex items-center justify-between mb-3">
                       <div className="flex items-center gap-2">
-                        <div className="w-6 h-6 rounded bg-blue-600 flex items-center justify-center font-bold text-xs text-white">
-                          JP
+                        <div className="w-6 h-6 rounded bg-white p-0.5 flex items-center justify-center shrink-0 shadow-xs">
+                          <img
+                            src="/jp.png"
+                            alt="JP Logo"
+                            className="w-full h-full object-contain"
+                          />
                         </div>
                         <span className="text-xs font-bold text-white">Your Business Online</span>
                       </div>

@@ -1,3 +1,8 @@
+import urbannestImg from '../assets/images/urbannest_mockup_1790998051121.jpg';
+import sreelakshmiImg from '../assets/images/sreelakshmi_mockup_1790998063871.jpg';
+import fitzoneImg from '../assets/images/fitzone_mockup_1790998076145.jpg';
+import coastalbrewImg from '../assets/images/coastalbrew_mockup_1790998090748.jpg';
+
 export interface DemoProject {
   id: string;
   name: string;
@@ -28,7 +33,7 @@ export const DEMO_PROJECTS: DemoProject[] = [
     tagline: 'Modern luxury residential & commercial spaces designed with soul',
     description:
       'A sleek, minimalist website built for a contemporary interior design studio. Features an architectural portfolio grid, interactive design style quiz, client consultation booking, and fast-loading image galleries.',
-    image: '/src/assets/images/urbannest_mockup_1790998051121.jpg',
+    image: urbannestImg,
     demoUrl: 'https://demo.justpromot.com/urbannest-interiors',
     features: ['Minimalist Portfolio Grid', 'Instant Consultation Booking', 'Responsive Floorplan Showcase', '98+ Google PageSpeed Score'],
     color: '#0F172A',
@@ -50,7 +55,7 @@ export const DEMO_PROJECTS: DemoProject[] = [
     tagline: 'Authentic South & North Indian culinary feasts for weddings & gala events',
     description:
       'An appetizing and festive digital presence for a premier event catering service. Includes curated traditional menu cards, plate cost calculators, event photo galleries, and quick inquiry forms.',
-    image: '/src/assets/images/sreelakshmi_mockup_1790998063871.jpg',
+    image: sreelakshmiImg,
     demoUrl: 'https://demo.justpromot.com/sree-lakshmi-caterers',
     features: ['Interactive Feast Menus', 'Guest Count Plate Estimator', 'Direct WhatsApp Enquiry', 'Event Showcase Gallery'],
     color: '#831843',
@@ -72,7 +77,7 @@ export const DEMO_PROJECTS: DemoProject[] = [
     tagline: 'High-energy strength training, CrossFit, and personal fitness coaching',
     description:
       'A high-intensity, modern gym website designed to drive trial memberships. Features daily class schedules, trainer profiles, virtual gym tour, and simple membership plan cards.',
-    image: '/src/assets/images/fitzone_mockup_1790998076145.jpg',
+    image: fitzoneImg,
     demoUrl: 'https://demo.justpromot.com/fitzone-studio',
     features: ['Live Class Schedule Table', 'Trainer Portfolio & Bios', 'Free 1-Day Pass Form', 'Mobile-First Layout'],
     color: '#0284C7',
@@ -94,7 +99,7 @@ export const DEMO_PROJECTS: DemoProject[] = [
     tagline: 'Artisanal single-origin coffee, sourdough bakes, and peaceful coastal vibes',
     description:
       'A warm, welcoming website crafted for a specialty neighborhood coffee shop. Features a visual digital menu, operating hours, Google Maps directions, and Instagram feed integration.',
-    image: '/src/assets/images/coastalbrew_mockup_1790998090748.jpg',
+    image: coastalbrewImg,
     demoUrl: 'https://demo.justpromot.com/coastal-brew-cafe',
     features: ['Visual Digital Drink Menu', 'Google Maps Location Embed', 'Specialty Coffee Guide', 'Instant Table Reservation'],
     color: '#78350F',
